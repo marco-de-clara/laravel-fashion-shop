@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'DresseController@index');
+Route::get('/', 'DressController@index');

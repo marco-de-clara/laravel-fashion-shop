@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Dresse;
+use App\Dress;
 
-class DresseController extends Controller
+class DressController extends Controller
 {
     public function index() {
-        $all_dresses = Dresse::all();
+        $all_dresses = Dress::all();
         return view('shop', ['dresses' => $all_dresses]);
     }
 }

@@ -16,12 +16,12 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($dresses as $dresse)
+                        @foreach ($dresses as $dress)
                             <tr>
-                                <td>{{ $dresse->id }}</td>
-                                <td>{{ $dresse->size }}</td>
-                                <td>{{ $dresse->color }}</td>
-                                <td>{{ $dresse->type }}</td>
+                                <td>{{ $dress->id }}</td>
+                                <td>{{ $dress->size }}</td>
+                                <td>{{ $dress->color }}</td>
+                                <td>{{ $dress->type }}</td>
                             </tr>
                         @endforeach
                     </tbody>
